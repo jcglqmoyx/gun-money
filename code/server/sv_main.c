@@ -518,7 +518,8 @@ void MOD_modifiedAuth(char *auth, char *newauth, int cnum)
 	client_t *client;
 
 	client = &svs.clients[cnum];
-	sprintf(ccnum, "%d", cnum);
+	//sprintf(ccnum, "%d", cnum);
+	snprintf(ccnum, sizeof(ccnum), "%d", cnum);
 
 	//Save auth of the player
 	Q_strncpyz(realauth,auth,MAX_NAME_LENGTH*2);
@@ -637,7 +638,8 @@ void QDECL SV_SendServerCommand(client_t *cl, const char *fmt, ...) {
 		char actualClientLocation[256];
 
 		// Save the clients location in the clientState
-		sprintf(workString, "%s: %s", cl->name, (char *)message);
+		//sprintf(workString, "%s: %s", cl->name, (char *)message);
+		snprintf(workString, sizeof(workString), "%s: %s", cl->name, (char *)message);
 		int jumplength = strlen(cl->name) + 11;
 		strcpy(actualClientLocation, workString + jumplength);
 		cl->location = sv.configstrings[atoi(actualClientLocation) + 640];
