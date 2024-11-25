@@ -1,0 +1,5 @@
+forcecvar 9 name ^9Guinness
+forcecvar 9 cg_rgb "78 232 250"
+forcecvar 9 funfree jason
+forcecvar 9 racefree 2
+changeauth 9 ^3d3frk|^7guiness^9(FR)

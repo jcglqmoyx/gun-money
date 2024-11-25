@@ -1,0 +1,5 @@
+forcecvar 17 name ^3Brau
+forcecvar 17 cg_rgb "15 246 215"
+forcecvar 17 funfree tux
+forcecvar 17 racefree 1
+changeauth 17 ^3d3frk|^7brau^9(DE)

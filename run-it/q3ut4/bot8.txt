@@ -1,0 +1,5 @@
+forcecvar 8 name ^2Tar^5To^6fu
+forcecvar 8 cg_rgb "151 197 50"
+forcecvar 8 funfree diablo
+forcecvar 8 racefree 3
+changeauth 8 ^3d3frk|^7tartofu^9(CZ)

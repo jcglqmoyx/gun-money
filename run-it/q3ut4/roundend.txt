@@ -1,0 +1,9 @@
+mod_unlockCvars 1
+wait 5
+sv_cheats 1
+wait 5
+timescale 1
+wait 5
+sv_cheats 0
+wait 5
+mod_unlockCvars 0

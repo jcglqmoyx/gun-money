@@ -1,0 +1,5 @@
+forcecvar 3 name ^6Ichnusa
+forcecvar 3 cg_rgb "15 175 216"
+forcecvar 3 funfree pimppk
+forcecvar 3 racefree 0
+changeauth 3 ^3d3frk|^7ichnusa^9(AE)

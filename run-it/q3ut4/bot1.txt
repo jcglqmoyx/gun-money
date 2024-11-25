@@ -1,0 +1,5 @@
+forcecvar 1 name ^4Buck^7ler
+forcecvar 1 cg_rgb "129 190 132"
+forcecvar 1 funfree mohwkbk,mustbk
+forcecvar 1 racefree 3
+changeauth 1 ^3d3frk|^7buckler^9(DE)

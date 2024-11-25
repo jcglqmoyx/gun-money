@@ -1,0 +1,43 @@
+tell XDATA1 "^3Available ^2commands ^3are:"
+wait 10
+tell XDATA1 "^6!^2helpme                                 ^5# ^3Sends a helpfile 'How to play gunmoney' "
+wait 10
+tell XDATA1 "^6!^2money                                  ^5# ^3View your current balance"
+wait 10
+tell XDATA1 "^6!^2topmoney                               ^5# ^3View the Top 3 richest players"
+wait 10
+tell XDATA1 "^6!^2buylist                                ^5# ^3View purchaseable guns/items/abilities"
+wait 10
+tell XDATA1 "^6!^2ammo                                   ^5# ^3Buy XDATA150 bullets for the gun you are holding"
+wait 10
+tell XDATA1 "^6!^2gamble                                 ^5# ^3Test your chance to win some coins! odds are 50/50"
+wait 10
+tell XDATA1 "^6!^2buy ^1[^7weapon-name^1] ^1[^7on/off^1]             ^5# ^3Buy a weapon (Only use on / off if you want autobuy)"
+wait 10
+tell XDATA1 "^6!^2price ^1[^7weapon-name^1]                    ^5# ^3Displays the price of a weapon"
+wait 10
+tell XDATA1 "^6!^2pay ^1[^7Playername^1] ^1[^7amount^1]              ^5# ^3Pay a player x amount of money"
+wait 10
+tell XDATA1 "^6!^2heal                                   ^5# ^3Buy 100 health"
+wait 10
+tell XDATA1 "^6!^2hi ^1[^7Playername^1]                        ^5# ^3Say hi to a player"
+wait 10
+tell XDATA1 "^6!^2hiall                                  ^5# ^3Say hi to everyone"
+wait 10
+tell XDATA1 "^6!^2auth                                   ^5# ^3Set your name as auth"
+wait 10
+tell XDATA1 "^6!^2nextmap                                ^5# ^3View current- and nextmap"
+wait 10
+tell XDATA1 "^6!^2servers                                ^5# ^3Get a list of available servers"
+wait 10
+tell XDATA1 "^6!^2rules                                  ^5# ^3View the server rules"
+wait 10
+tell XDATA1 "^6!^2like                                   ^5# ^3Like the current map being played"
+wait 10
+tell XDATA1 "^6!^2dislike                                ^5# ^3Dislike the current map being played"
+wait 10
+tell XDATA1 "^6!^2report ^1[^7Playername^1]                    ^5# ^3Report a player ^1DO NOT ABUSE"
+wait 10
+tell XDATA1 "^6!^2adminhelp                              ^5# ^1Mods^3/^1Admins ^3use this to see admin commands"
+wait 10
+tell XDATA1 "^3Need any more help? Kindly ask somebody or join my discord!"

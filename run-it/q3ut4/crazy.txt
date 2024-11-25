@@ -1,0 +1,6 @@
+mod_infiniteAmmo 1
+mod_noWeaponCycle 1
+mod_noWeaponRecoil 1
+say "^5Kill rewards are disabled for 30 seconds."
+say "^5Shoot as fast as you can click!"
+say "^5Use !buy <weaponname> to buy a gun with infinite ammo!"

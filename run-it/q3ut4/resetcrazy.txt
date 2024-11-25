@@ -1,0 +1,4 @@
+mod_infiniteAmmo 0
+mod_noWeaponCycle 0
+mod_noWeaponRecoil 0
+bigtext "^3Not so ^2C^5r^3a^6z^7y ^3anymore huh?"

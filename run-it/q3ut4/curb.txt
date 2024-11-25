@@ -1,0 +1,7 @@
+gw player hk69 100 255
+gw player smoke 100 0
+gw player he 100 0
+gi player vest
+gi player helmet
+gi player laser
+gi player silencer

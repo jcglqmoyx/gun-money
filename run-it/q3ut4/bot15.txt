@@ -1,0 +1,5 @@
+forcecvar 15 name ^5W^6oo^5ba
+forcecvar 15 cg_rgb "170 163 220"
+forcecvar 15 funfree zero
+forcecvar 15 racefree 1
+changeauth 15 ^3d3frk|^7wooba^9(NL)

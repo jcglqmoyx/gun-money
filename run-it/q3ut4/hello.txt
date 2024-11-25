@@ -1,0 +1,31 @@
+bigtext "^1l^7I^1l ^1Hey player ^1l^7I^1l"
+wait 15
+bigtext "^7I^1l^7I ^2Hey player ^7I^1l^7I"
+wait 15
+bigtext "^1l^7I^1l ^3Hey player ^1l^7I^1l"
+wait 15
+bigtext "^7I^1l^7I ^4Hey player ^7I^1l^7I"
+wait 15
+bigtext "^1l^7I^1l ^5Hey player ^1l^7I^1l"
+wait 15
+bigtext "^7I^1l^7I ^6Hey player ^7I^1l^7I"
+wait 15
+bigtext "^1l^7I^1l ^7Hey player ^1l^7I^1l"
+wait 15
+bigtext "^7I^1l^7I ^8Hey player ^7I^1l^7I"
+wait 15
+bigtext "^1l^7I^1l ^1Hey player ^1l^7I^1l"
+wait 15
+bigtext "^7I^1l^7I ^2Hey player ^7I^1l^7I"
+wait 15
+bigtext "^1l^7I^1l ^3Hey player ^1l^7I^1l"
+wait 15
+bigtext "^7I^1l^7I ^4Hey player ^7I^1l^7I"
+wait 15
+bigtext "^1l^7I^1l ^5Hey player ^1l^7I^1l"
+wait 15
+bigtext "^7I^1l^7I ^6Hey player ^7I^1l^7I"
+wait 15
+bigtext "^1l^7I^1l ^7Hey player ^1l^7I^1l"
+wait 15
+bigtext "^7I^1l^7I ^8Hey player ^7I^1l^7I"

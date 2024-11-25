@@ -1,0 +1,5 @@
+forcecvar 13 name ^1Anon^7Vodka
+forcecvar 13 cg_rgb "107 223 138"
+forcecvar 13 funfree cigar,capbk
+forcecvar 13 racefree 2
+changeauth 13 ^3d3frk|^7anonvodka^9(DE)

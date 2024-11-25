@@ -1,0 +1,5 @@
+forcecvar 5 name ^5W^7u^5h^7r^5e^7r
+forcecvar 5 cg_rgb "167 184 253"
+forcecvar 5 funfree viking,goateerd
+forcecvar 5 racefree 2
+changeauth 5 ^3d3frk|^7wuhrer^9(MX)

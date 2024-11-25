@@ -1,0 +1,37 @@
+tell XDATA1 "^3Available ^1Admin-commands ^3are:"
+wait 10
+tell XDATA1 "^6!^2warn ^1[^7Playername^1] ^1[^7Reason^1]              ^5# ^3Warn a player for X reason"
+wait 10
+tell XDATA1 "^6!^2warnremove ^1[^7Playername^1]                 ^5# ^3Remove a warning of a player"
+wait 10
+tell XDATA1 "^6!^2warninfo ^1[^7Playername^1]                   ^5# ^3View active warnings of a player"
+wait 10
+tell XDATA1 "^6!^2kick ^1[^7Playername^1] ^1[^7Reason^1]              ^5# ^3Kick a player for X reason"
+wait 10
+tell XDATA1 "^6!^2funremove ^1[^7Playername^1]                  ^5# ^3Remove annoying/broken funstuff of a player"
+wait 10
+tell XDATA1 "^6!^2leveltest ^1[^7Playername^1]                  ^5# ^3View user informations of a player"
+wait 10
+tell XDATA1 "^6!^2setbots ^1[^7Playername^1]                    ^5# ^3Set how many player slots the bots should fill"
+wait 10
+tell XDATA1 "^6!^2demo ^1[^7Playername^1]                       ^5# ^3Record a demo of a player (server point of view)"
+wait 10
+tell XDATA1 "^6!^2rename ^1[^7Playername^1] ^1[^7Name^1]              ^5# ^3Rename a player"
+wait 10
+tell XDATA1 "^6!^2mute ^1[^7Playername^1]                       ^5# ^3mute a player"
+wait 10
+tell XDATA1 "^6!^2permamute ^1[^7Playername^1]                  ^5# ^3Permanently mute a player"
+wait 10
+tell XDATA1 "^6!^2permaunmute ^1[^7Playername^1]                ^5# ^3Remove a permanent mute of a player"
+wait 10
+tell XDATA1 "^6!^2tempban ^1[^7name^1] ^1[^7duration^1] ^1[^7Reason^1]      ^5# ^3tempban a player"
+wait 10
+tell XDATA1 "^6!^2admins                                  ^5# ^3View admins that are online"
+wait 10
+tell XDATA1 "^6!^2b3                                      ^5# ^3Check if b3 is running/ if not tell me"
+wait 10
+tell XDATA1 "^6!^2spec ^1[^7Playername^1]                       ^5# ^3Force a player into team spec"
+wait 10
+tell XDATA1 "^6!^2callvote ^1[^7FFA/TDM/CTF^1]                  ^5# ^3Call a vote to change the gamemode"
+wait 10
+tell XDATA1 "^3For further informations please ask me in discord!"

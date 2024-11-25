@@ -1,0 +1,5 @@
+forcecvar 10 name ^1under^7COVER
+forcecvar 10 cg_rgb "58 222 148"
+forcecvar 10 funfree touqbk
+forcecvar 10 racefree 0
+changeauth 10 ^3d3frk|^7undercover^9(GB)

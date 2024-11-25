@@ -1,0 +1,81 @@
+bigtext "^1/^2\^3/^4\^5/^6\^7/ ^3player says hi to everyone! ^7\^6/^5\^4/^3\^2/^1\"
+wait 10
+bigtext "^2/^3\^4/^5\^6/^7\^1/ ^3player says hi to everyone! ^6\^5/^4\^3/^2\^1/^7\"
+wait 10
+bigtext "^3/^4\^5/^6\^7/^1\^2/ ^3player says hi to everyone! ^5\^4/^3\^2/^1\^7/^6\"
+wait 10
+bigtext "^4/^5\^6/^7\^1/^2\^3/ ^3player says hi to everyone! ^4\^3/^2\^1/^7\^6/^5\"
+wait 10
+bigtext "^5/^6\^7/^1\^2/^3\^4/ ^3player says hi to everyone! ^3\^2/^1\^7/^6\^5/^4\"
+wait 10
+bigtext "^6/^7\^1/^2\^3/^4\^5/ ^3player says hi to everyone! ^2\^1/^7\^6/^5\^4/^3\"
+wait 10
+bigtext "^7/^1\^2/^3\^4/^5\^6/ ^3player says hi to everyone! ^1\^7/^6\^5/^4\^3/^2\"
+wait 10
+bigtext "^1/^2\^3/^4\^5/^6\^7/ ^3player says hi to everyone! ^7\^6/^5\^4/^3\^2/^1\"
+wait 10
+bigtext "^2/^3\^4/^5\^6/^7\^1/ ^3player says hi to everyone! ^6\^5/^4\^3/^2\^1/^7\"
+wait 10
+bigtext "^3/^4\^5/^6\^7/^1\^2/ ^3player says hi to everyone! ^5\^4/^3\^2/^1\^7/^6\"
+wait 10
+bigtext "^4/^5\^6/^7\^1/^2\^3/ ^3player says hi to everyone! ^4\^3/^2\^1/^7\^6/^5\"
+wait 10
+bigtext "^5/^6\^7/^1\^2/^3\^4/ ^3player says hi to everyone! ^3\^2/^1\^7/^6\^5/^4\"
+wait 10
+bigtext "^6/^7\^1/^2\^3/^4\^5/ ^3player says hi to everyone! ^2\^1/^7\^6/^5\^4/^3\"
+wait 10
+bigtext "^7/^1\^2/^3\^4/^5\^6/ ^3player says hi to everyone! ^1\^7/^6\^5/^4\^3/^2\"
+wait 10
+bigtext "^1/^2\^3/^4\^5/^6\^7/ ^3player says hi to everyone! ^7\^6/^5\^4/^3\^2/^1\"
+wait 10
+bigtext "^2/^3\^4/^5\^6/^7\^1/ ^3player says hi to everyone! ^6\^5/^4\^3/^2\^1/^7\"
+wait 10
+bigtext "^3/^4\^5/^6\^7/^1\^2/ ^3player says hi to everyone! ^5\^4/^3\^2/^1\^7/^6\"
+wait 10
+bigtext "^4/^5\^6/^7\^1/^2\^3/ ^3player says hi to everyone! ^4\^3/^2\^1/^7\^6/^5\"
+wait 10
+bigtext "^5/^6\^7/^1\^2/^3\^4/ ^3player says hi to everyone! ^3\^2/^1\^7/^6\^5/^4\"
+wait 10
+bigtext "^6/^7\^1/^2\^3/^4\^5/ ^3player says hi to everyone! ^2\^1/^7\^6/^5\^4/^3\"
+wait 10
+bigtext "^7/^1\^2/^3\^4/^5\^6/ ^3player says hi to everyone! ^1\^7/^6\^5/^4\^3/^2\"
+wait 10
+bigtext "^1/^2\^3/^4\^5/^6\^7/ ^3player says hi to everyone! ^7\^6/^5\^4/^3\^2/^1\"
+wait 10
+bigtext "^2/^3\^4/^5\^6/^7\^1/ ^3player says hi to everyone! ^6\^5/^4\^3/^2\^1/^7\"
+wait 10
+bigtext "^3/^4\^5/^6\^7/^1\^2/ ^3player says hi to everyone! ^5\^4/^3\^2/^1\^7/^6\"
+wait 10
+bigtext "^4/^5\^6/^7\^1/^2\^3/ ^3player says hi to everyone! ^4\^3/^2\^1/^7\^6/^5\"
+wait 10
+bigtext "^5/^6\^7/^1\^2/^3\^4/ ^3player says hi to everyone! ^3\^2/^1\^7/^6\^5/^4\"
+wait 10
+bigtext "^6/^7\^1/^2\^3/^4\^5/ ^3player says hi to everyone! ^2\^1/^7\^6/^5\^4/^3\"
+wait 10
+bigtext "^7/^1\^2/^3\^4/^5\^6/ ^3player says hi to everyone! ^1\^7/^6\^5/^4\^3/^2\"
+wait 10
+bigtext "^1/^2\^3/^4\^5/^6\^7/ ^3player says hi to everyone! ^7\^6/^5\^4/^3\^2/^1\"
+wait 10
+bigtext "^2/^3\^4/^5\^6/^7\^1/ ^3player says hi to everyone! ^6\^5/^4\^3/^2\^1/^7\"
+wait 10
+bigtext "^3/^4\^5/^6\^7/^1\^2/ ^3player says hi to everyone! ^5\^4/^3\^2/^1\^7/^6\"
+wait 10
+bigtext "^4/^5\^6/^7\^1/^2\^3/ ^3player says hi to everyone! ^4\^3/^2\^1/^7\^6/^5\"
+wait 10
+bigtext "^5/^6\^7/^1\^2/^3\^4/ ^3player says hi to everyone! ^3\^2/^1\^7/^6\^5/^4\"
+wait 10
+bigtext "^6/^7\^1/^2\^3/^4\^5/ ^3player says hi to everyone! ^2\^1/^7\^6/^5\^4/^3\"
+wait 10
+bigtext "^7/^1\^2/^3\^4/^5\^6/ ^3player says hi to everyone! ^1\^7/^6\^5/^4\^3/^2\"
+wait 10
+bigtext "^2/^3\^4/^5\^6/^7\^1/ ^3player says hi to everyone! ^6\^5/^4\^3/^2\^1/^7\"
+wait 10
+bigtext "^3/^4\^5/^6\^7/^1\^2/ ^3player says hi to everyone! ^5\^4/^3\^2/^1\^7/^6\"
+wait 10
+bigtext "^4/^5\^6/^7\^1/^2\^3/ ^3player says hi to everyone! ^4\^3/^2\^1/^7\^6/^5\"
+wait 10
+bigtext "^5/^6\^7/^1\^2/^3\^4/ ^3player says hi to everyone! ^3\^2/^1\^7/^6\^5/^4\"
+wait 10
+bigtext "^6/^7\^1/^2\^3/^4\^5/ ^3player says hi to everyone! ^2\^1/^7\^6/^5\^4/^3\"
+wait 10
+bigtext "^7/^1\^2/^3\^4/^5\^6/ ^3player says hi to everyone! ^1\^7/^6\^5/^4\^3/^2\"

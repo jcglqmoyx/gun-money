@@ -1,0 +1,5 @@
+forcecvar 19 name ^3Coronita
+forcecvar 19 cg_rgb "191 195 147"
+forcecvar 19 funfree lobo,wings
+forcecvar 19 racefree 1
+changeauth 19 ^3d3frk|^7coronita^9(RU)

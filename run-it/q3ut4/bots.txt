@@ -1,0 +1,168 @@
+{
+name		Boa
+funname		"^4Buck^7ler"
+location	"Netherlands"
+title		"NL"
+ping		100
+skill		4
+}
+{
+name		Cheetah
+funname		"^3M^7enabrea"
+ping		55
+location	"Italy"
+title		"IT"
+skill		4
+}
+{
+name		Chicken
+funname		"^6Ichnusa"
+ping		50
+location	"Italy"
+title		"IT"
+skill		3
+}
+{
+name		Cobra
+funname		"^6Mor^3ettone"
+ping		70
+location	"Italy"
+title		"IT"
+skill		3
+}
+{
+name		Cockroach
+funname		"^5W^7u^5h^7r^5e^7r"
+ping		100
+location	"Italy"
+title		"IT"
+skill		4
+}
+{
+name		Cougar
+funname		"^8Pauler"
+ping		130
+location	"Germany"
+title		"DE"
+skill		3
+}
+{
+name		Goose
+funname		"^7F^5ranzis^5!"
+ping		70
+location	"German"
+title		"DE"
+skill		3
+}
+{
+name		Mantis
+funname		"^3Coronita"
+ping		50
+location	"Mexico"
+title		"MX"
+skill		4
+}
+{
+name		Penguin
+funname		"^9Guinness"
+ping		59
+location	"Ireland"
+title		"IE"
+skill		3
+}
+{
+name		Puma
+funname		"^3Desperados"
+ping		210
+location	"Mexico"
+title		"MX"
+skill		3
+}
+{
+name		Python
+funname		"^2Heineken"
+ping		100
+location	"Netherlands"
+title		"NL"
+skill		5
+}
+{
+name		Raven
+funname		"^1Kill ^2Kenny?"
+ping		300
+location	"Ireland"
+title		"IE"
+skill		4
+}
+{
+name		Scarab
+funname		"^3Brau"
+ping		240
+location	"German"
+title		"DE"
+skill		3
+}
+{
+name		Scorpion
+funname		"^3Schneider"
+ping		40
+location	"Switzerland"
+title		"CH"
+skill		4
+}
+{
+name		Tiger
+funname		"^4O^8yster"
+ping		200
+location	"Ireland"
+title		"IE"
+skill		3
+}
+{
+name		Widow
+funname		"^1Rossa ^7Doppio ^1Malto"
+ping		60
+location	"Italy"
+title		"IT"
+skill		4
+}
+{
+name            Boa
+funname         "^7Buddy"
+location        "United States"
+title           "US"
+ping            100
+skill           4
+}
+{
+name            Cheetah
+funname         "^3Asahi"
+ping            55
+location        "Japan"
+title           "JP"
+skill           4
+}
+{
+name            Chicken
+funname         "^4S^7chwarz"
+ping            50
+location        "Germany"
+title           "DE"
+skill           3
+}
+{
+name            Cobra
+funname         "^2Luv ^5Luppolo^2!"
+ping            70
+location        "England"
+title           "EN"
+skill           3
+}
+{
+name            Cockroach
+funname         "^2Ipa"
+ping            80
+location        "England"
+title           "EN"
+skill           4
+}

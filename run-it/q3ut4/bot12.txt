@@ -1,0 +1,5 @@
+forcecvar 12 name ^1Kill^2Kenny?
+forcecvar 12 cg_rgb "15 12 127"
+forcecvar 12 funfree spikeybk,pbeardrd
+forcecvar 12 racefree 3
+changeauth 12 ^3d3frk|^7killkenny^9(CO)

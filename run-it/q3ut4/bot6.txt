@@ -1,0 +1,5 @@
+forcecvar 6 name ^8Pauler
+forcecvar 6 cg_rgb "2 53 31"
+forcecvar 6 funfree touqrd
+forcecvar 6 racefree 3
+changeauth 6 ^3d3frk|^7pauler^9(HK)

@@ -1,0 +1,5 @@
+forcecvar 20 name ^2Desperados
+forcecvar 20 cg_rgb "120 12 246"
+forcecvar 20 funfree thor,shield
+forcecvar 20 racefree 2
+changeauth 20 ^3d3frk|^7desperados^9(RO)

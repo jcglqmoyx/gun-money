@@ -1,0 +1,5 @@
+forcecvar 7 name ^7F^5ranzis^5!
+forcecvar 7 cg_rgb "235 66 248"
+forcecvar 7 funfree phat,pbeard
+forcecvar 7 racefree 3
+changeauth 7 ^3d3frk|^7franzis^9(DK)

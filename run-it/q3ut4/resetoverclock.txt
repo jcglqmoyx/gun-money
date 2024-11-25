@@ -1,0 +1,6 @@
+mod_unlockCvars 1
+sv_cheats 1
+timescale 1
+sv_cheats 0
+mod_unlockCvars 0
+bigtext "^7The servers ^2CPU ^7needs to ^4cool down"

@@ -1,0 +1,81 @@
+bigtext "^1/^2\^3/^4\^5/^6\^8/ ^3player1 says hi to player2 ^8\^6/^5\^4/^3\^2/^1\"
+wait 15
+bigtext "^2/^3\^4/^5\^6/^8\^1/ ^3player1 says hi to player2 ^6\^5/^4\^3/^2\^1/^8\"
+wait 15
+bigtext "^3/^4\^5/^6\^8/^1\^2/ ^3player1 says hi to player2 ^5\^4/^3\^2/^1\^8/^6\"
+wait 15
+bigtext "^4/^5\^6/^8\^1/^2\^3/ ^3player1 says hi to player2 ^4\^3/^2\^1/^8\^6/^5\"
+wait 15
+bigtext "^5/^6\^8/^1\^2/^3\^4/ ^3player1 says hi to player2 ^3\^2/^1\^8/^6\^5/^4\"
+wait 15
+bigtext "^6/^8\^1/^2\^3/^4\^5/ ^3player1 says hi to player2 ^2\^1/^8\^6/^5\^4/^3\"
+wait 15
+bigtext "^8/^1\^2/^3\^4/^5\^6/ ^3player1 says hi to player2 ^1\^8/^6\^5/^4\^3/^2\"
+wait 15
+bigtext "^1/^2\^3/^4\^5/^6\^8/ ^3player1 says hi to player2 ^8\^6/^5\^4/^3\^2/^1\"
+wait 15
+bigtext "^2/^3\^4/^5\^6/^8\^1/ ^3player1 says hi to player2 ^6\^5/^4\^3/^2\^1/^8\"
+wait 15
+bigtext "^3/^4\^5/^6\^8/^1\^2/ ^3player1 says hi to player2 ^5\^4/^3\^2/^1\^8/^6\"
+wait 15
+bigtext "^4/^5\^6/^8\^1/^2\^3/ ^3player1 says hi to player2 ^4\^3/^2\^1/^8\^6/^5\"
+wait 15
+bigtext "^5/^6\^8/^1\^2/^3\^4/ ^3player1 says hi to player2 ^3\^2/^1\^8/^6\^5/^4\"
+wait 15
+bigtext "^6/^8\^1/^2\^3/^4\^5/ ^3player1 says hi to player2 ^2\^1/^8\^6/^5\^4/^3\"
+wait 15
+bigtext "^8/^1\^2/^3\^4/^5\^6/ ^3player1 says hi to player2 ^1\^8/^6\^5/^4\^3/^2\"
+wait 15
+bigtext "^1/^2\^3/^4\^5/^6\^8/ ^3player1 says hi to player2 ^8\^6/^5\^4/^3\^2/^1\"
+wait 15
+bigtext "^2/^3\^4/^5\^6/^8\^1/ ^3player1 says hi to player2 ^6\^5/^4\^3/^2\^1/^8\"
+wait 15
+bigtext "^3/^4\^5/^6\^8/^1\^2/ ^3player1 says hi to player2 ^5\^4/^3\^2/^1\^8/^6\"
+wait 15
+bigtext "^4/^5\^6/^8\^1/^2\^3/ ^3player1 says hi to player2 ^4\^3/^2\^1/^8\^6/^5\"
+wait 15
+bigtext "^5/^6\^8/^1\^2/^3\^4/ ^3player1 says hi to player2 ^3\^2/^1\^8/^6\^5/^4\"
+wait 15
+bigtext "^6/^8\^1/^2\^3/^4\^5/ ^3player1 says hi to player2 ^2\^1/^8\^6/^5\^4/^3\"
+wait 15
+bigtext "^8/^1\^2/^3\^4/^5\^6/ ^3player1 says hi to player2 ^1\^8/^6\^5/^4\^3/^2\"
+wait 15
+bigtext "^1/^2\^3/^4\^5/^6\^8/ ^3player1 says hi to player2 ^8\^6/^5\^4/^3\^2/^1\"
+wait 15
+bigtext "^2/^3\^4/^5\^6/^8\^1/ ^3player1 says hi to player2 ^6\^5/^4\^3/^2\^1/^8\"
+wait 15
+bigtext "^3/^4\^5/^6\^8/^1\^2/ ^3player1 says hi to player2 ^5\^4/^3\^2/^1\^8/^6\"
+wait 15
+bigtext "^4/^5\^6/^8\^1/^2\^3/ ^3player1 says hi to player2 ^4\^3/^2\^1/^8\^6/^5\"
+wait 15
+bigtext "^5/^6\^8/^1\^2/^3\^4/ ^3player1 says hi to player2 ^3\^2/^1\^8/^6\^5/^4\"
+wait 15
+bigtext "^6/^8\^1/^2\^3/^4\^5/ ^3player1 says hi to player2 ^2\^1/^8\^6/^5\^4/^3\"
+wait 15
+bigtext "^8/^1\^2/^3\^4/^5\^6/ ^3player1 says hi to player2 ^1\^8/^6\^5/^4\^3/^2\"
+wait 15
+bigtext "^1/^2\^3/^4\^5/^6\^8/ ^3player1 says hi to player2 ^8\^6/^5\^4/^3\^2/^1\"
+wait 15
+bigtext "^2/^3\^4/^5\^6/^8\^1/ ^3player1 says hi to player2 ^6\^5/^4\^3/^2\^1/^8\"
+wait 15
+bigtext "^3/^4\^5/^6\^8/^1\^2/ ^3player1 says hi to player2 ^5\^4/^3\^2/^1\^8/^6\"
+wait 15
+bigtext "^4/^5\^6/^8\^1/^2\^3/ ^3player1 says hi to player2 ^4\^3/^2\^1/^8\^6/^5\"
+wait 15
+bigtext "^5/^6\^8/^1\^2/^3\^4/ ^3player1 says hi to player2 ^3\^2/^1\^8/^6\^5/^4\"
+wait 15
+bigtext "^6/^8\^1/^2\^3/^4\^5/ ^3player1 says hi to player2 ^2\^1/^8\^6/^5\^4/^3\"
+wait 15
+bigtext "^8/^1\^2/^3\^4/^5\^6/ ^3player1 says hi to player2 ^1\^8/^6\^5/^4\^3/^2\"
+wait 15
+bigtext "^2/^3\^4/^5\^6/^8\^1/ ^3player1 says hi to player2 ^6\^5/^4\^3/^2\^1/^8\"
+wait 15
+bigtext "^3/^4\^5/^6\^8/^1\^2/ ^3player1 says hi to player2 ^5\^4/^3\^2/^1\^8/^6\"
+wait 15
+bigtext "^4/^5\^6/^8\^1/^2\^3/ ^3player1 says hi to player2 ^4\^3/^2\^1/^8\^6/^5\"
+wait 15
+bigtext "^5/^6\^8/^1\^2/^3\^4/ ^3player1 says hi to player2 ^3\^2/^1\^8/^6\^5/^4\"
+wait 15
+bigtext "^6/^8\^1/^2\^3/^4\^5/ ^3player1 says hi to player2 ^2\^1/^8\^6/^5\^4/^3\"
+wait 15
+bigtext "^8/^1\^2/^3\^4/^5\^6/ ^3player1 says hi to player2 ^1\^8/^6\^5/^4\^3/^2\"

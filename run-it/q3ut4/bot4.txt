@@ -1,0 +1,5 @@
+forcecvar 4 name ^6Mor^3ettone
+forcecvar 4 cg_rgb "53 209 18"
+forcecvar 4 funfree shades,ponygn
+forcecvar 4 racefree 1
+changeauth 4 ^3d3frk|^7morettone^9(US)

@@ -1,0 +1,74 @@
+playsoundfile 1 /sound/custom/def
+playsoundfile 1 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 2 /sound/custom/def
+playsoundfile 2 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 3 /sound/custom/def
+playsoundfile 3 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 4 /sound/custom/def
+playsoundfile 4 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 5 /sound/custom/def
+playsoundfile 5 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 6 /sound/custom/def
+playsoundfile 6 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 7 /sound/custom/def
+playsoundfile 7 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 8 /sound/custom/def
+playsoundfile 8 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 9 /sound/custom/def
+playsoundfile 9 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 10 /sound/custom/def
+playsoundfile 10 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 11 /sound/custom/def
+playsoundfile 11 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 12 /sound/custom/def
+playsoundfile 12 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 13 /sound/custom/def
+playsoundfile 13 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 14 /sound/custom/def
+playsoundfile 14 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 15 /sound/custom/def
+playsoundfile 15 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 16 /sound/custom/def
+playsoundfile 16 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 17 /sound/custom/def
+playsoundfile 17 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 19 /sound/custom/def
+playsoundfile 18 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 19 /sound/custom/def
+playsoundfile 19 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 20 /sound/custom/def
+playsoundfile 20 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 21 /sound/custom/def
+playsoundfile 21 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 22 /sound/custom/def
+playsoundfile 22 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 23 /sound/custom/def
+playsoundfile 23 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 24 /sound/custom/def
+playsoundfile 24 /sound/radio/female/female49.wav
+wait 1
+playsoundfile 25 /sound/custom/def
+playsoundfile 25 /sound/radio/female/female49.wav

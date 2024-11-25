@@ -1,0 +1,5 @@
+forcecvar 18 name ^7av^5i^7arita
+forcecvar 18 cg_rgb "164 197 157"
+forcecvar 18 funfree wingz,ninja
+forcecvar 18 racefree 0
+changeauth 18 ^3d3frk|^7aviarita^9(NO)

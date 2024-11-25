@@ -1,0 +1,5 @@
+forcecvar 11 name ^2Heineken
+forcecvar 11 cg_rgb "155 87 85"
+forcecvar 11 funfree capgn,ninja
+forcecvar 11 racefree 2
+changeauth 11 ^3d3frk|^7heineken^9(NL)

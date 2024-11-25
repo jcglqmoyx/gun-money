@@ -1,0 +1,5 @@
+forcecvar 16 name ^3Schneider
+forcecvar 16 cg_rgb "27 209 114"
+forcecvar 16 funfree vegeta
+forcecvar 16 racefree 2
+changeauth 16 ^3d3frk|^7schneider^9(FR)
