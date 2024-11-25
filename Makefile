@@ -1455,7 +1455,7 @@ endif
 $(B)/titanMod.$(ARCH)$(BINEXT): $(Q3DOBJ)
 	$(echo_cmd) "LD $@"
 	$(Q)$(CC) -o $@ $(Q3DOBJ) $(LDFLAGS)
-
+	cp $@ ./run-it/UrT_Privilege.x86_64 
 
 
 #############################################################################
@@ -1909,6 +1909,7 @@ endif
 
 clean: clean-debug clean-release
 	@$(MAKE) -C $(LOKISETUPDIR) clean
+	rm -f ./run-it/UrT_Privilege.x86_64 
 
 clean2:
 	@echo "CLEAN $(B)"

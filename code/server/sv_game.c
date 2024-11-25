@@ -468,67 +468,67 @@ Returns Weapon name
 */
 char* SV_NameWeapon(char* weap2) {
 	char* weapon = " ";
-	if (weap2 == "sr8") {
+	if (strcmp(weap2,"sr8")==0) {
 		weapon = "^6Sr8";
 	}
-	else if (weap2 == "ak103") {
+	else if (strcmp(weap2,"ak103")==0) {
 		weapon = "^5AK103";
 	}
-	else if (weap2 == "negev") {
+	else if (strcmp(weap2,"negev")==0) {
 		weapon = "^4NEGEV";
 	}
-	else if (weap2 == "ump45") {
+	else if (strcmp(weap2,"ump45")==0) {
 		weapon = "^3UMP45";
 	}
-	else if (weap2 == "g36") {
+	else if (strcmp(weap2,"g36")==0) {
 		weapon = "^5G36";
 	}
-	else if (weap2 == "hk69") {
+	else if (strcmp(weap2,"hk69")==0) {
 		weapon = "^1HK69";
 	}
-	else if (weap2 == "lr") {
+	else if (strcmp(weap2,"lr")==0) {
 		weapon = "^5LR300";
 	}
-	else if (weap2 == "spas12") {
+	else if (strcmp(weap2,"spas12")==0) {
 		weapon = "^3Spas12";
 	}
-	else if (weap2 == "m4") {
+	else if (strcmp(weap2,"m4")==0) {
 		weapon = "^5M4A1";
 	}
-	else if (weap2 == "psg1") {
+	else if (strcmp(weap2,"psg1")==0) {
 		weapon = "^6PSG1";
 	}
-	else if (weap2 == "mp5k") {
+	else if (strcmp(weap2,"mp5k")==0) {
 		weapon = "^3MP5K";
 	}
-	else if (weap2 == "beretta") {
+	else if (strcmp(weap2,"beretta")==0) {
 		weapon = "^2Beretta";
 	}
-	else if (weap2 == "deagle") {
+	else if (strcmp(weap2,"deagle")==0) {
 		weapon = "^2Desert Eagle";
 	}
-	else if (weap2 == "colt") {
+	else if (strcmp(weap2,"colt")==0) {
 		weapon = "^2Colt1911";
 	}
-	else if (weap2 == "magnum") {
+	else if (strcmp(weap2,"magnum")==0) {
 		weapon = "^2Magnum";
 	}
-	else if (weap2 == "glock") {
+	else if (strcmp(weap2,"glock")==0) {
 		weapon = "^2Glock-18";
 	}
-	else if (weap2 == "fstod") {
+	else if (strcmp(weap2,"fstod")==0) {
 		weapon = "^6TOD-50";
 	}
-	else if (weap2 == "p90") {
+	else if (strcmp(weap2,"p90")==0) {
 		weapon = "^3P90";
 	}
-	else if (weap2 == "mac11") {
+	else if (strcmp(weap2,"mac11")==0) {
 		weapon = "^3Mac11";
 	}
-	else if (weap2 == "benelli") {
+	else if (strcmp(weap2,"benelli")==0) {
 		weapon = "^3Benelli";
 	}
-	else if (weap2 == "frf1") {
+	else if (strcmp(weap2,"frf1")==0) {
 		weapon = "^6FRF1";
 	}
 	return weapon;
@@ -543,19 +543,19 @@ Returns Item name
 */
 char* SV_NameItem(char* item2) {
 	char* item = " ";
-	if (item2 == "silencer") {
+	if (strcmp(item2,"silencer")==0) {
 		item = "Silencer";
 	}
-	else if (item2 == "laser") {
+	else if (strcmp(item2,"laser")==0) {
 		item = "Laser Sight";
 	}
-	else if (item2 == "medkit") {
+	else if (strcmp(item2,"medkit")==0) {
 		item = "^6Super^3 ^2Medkit";
 	}
-	else if (item2 == "vest") {
+	else if (strcmp(item2,"vest")==0) {
 		item = "Kevlar";
 	}
-	else if (item2 == "helmet") {
+	else if (strcmp(item2,"helmet")==0) {
 		item = "Helmet";
 	}
 	return item;
