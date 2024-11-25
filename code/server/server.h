@@ -567,7 +567,7 @@ void *QVM_WPflags(weapon_t weapon);
 //
 // sv_weapon.c
 //
-weapon_t SV_Char2Weapon(char weapon[36]);
+weapon_t SV_Char2Weapon(char *weapon);
 utItemID_t SV_Char2Item(char *item);
 int overrideQVMData(void);
 void SV_GiveBulletsAW(playerState_t *ps, int bulletsCount, int weapon);

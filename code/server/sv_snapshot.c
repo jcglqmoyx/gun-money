@@ -827,7 +827,7 @@ void SV_CheckClientUserinfoTimer( void ) {
 		{
 			//We have something in the buffer
 			//and its time to process it
-			sprintf(bigbuffer,"userinfo \"%s\"",cl->userinfobuffer);
+			snprintf(bigbuffer,sizeof(bigbuffer),"userinfo \"%s\"",cl->userinfobuffer);
 			
 			Cmd_TokenizeString(bigbuffer);
 			SV_UpdateUserinfo_f(cl);

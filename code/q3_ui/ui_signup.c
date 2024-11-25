@@ -94,7 +94,7 @@ static void Signup_MenuEvent( void* ptr, int event ) {
 
 		// create account
 		/*
-		sprintf( cmd, "cmd rank_create \"%s\" \"%s\" \"%s\"\n", 
+		snprintf( cmd,sizeof(cmd), "cmd rank_create \"%s\" \"%s\" \"%s\"\n", 
 			s_signup.name_box.field.buffer, 
 			s_signup.password_box.field.buffer, 
 			s_signup.email_box.field.buffer );

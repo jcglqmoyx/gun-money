@@ -164,12 +164,12 @@ char *SV_CleanName(char *name) {
 	int i, j = 0;
 
 	if ( !Q_stricmp( name, "UnnamedPlayer" ) ) {
-		sprintf(cleaned, "%s^7", "UnnamedPlayer");
+		snprintf(cleaned,sizeof(cleaned), "%s^7", "UnnamedPlayer");
 		return cleaned;
 	}
 
 	if ( !Q_stricmp( name, "" ) ) {
-		sprintf(cleaned, "%s^7", "UnnamedPlayer");
+		snprintf(cleaned,sizeof(cleaned), "%s^7", "UnnamedPlayer");
 		return cleaned;
 	}
 

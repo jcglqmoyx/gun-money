@@ -342,7 +342,7 @@ void BotQueueConsoleMessage(int chatstate, int type, char *message)
 	m->handle = cs->handle;
 	m->time = AAS_Time();
 	m->type = type;
-	strncpy(m->message, message, MAX_MESSAGE_SIZE);
+	strncpy(m->message, message, MAX_MESSAGE_SIZE-1);
 	m->next = NULL;
 	if (cs->lastmessage)
 	{
@@ -895,7 +895,7 @@ int BotLoadChatMessage(source_t *source, char *chatmessagestring)
 				SourceError(source, "chat message too long\n");
 				return qfalse;
 			} //end if
-			strncat(ptr, token.string  ,MAX_MESSAGE_SIZE);
+			strncat(ptr, token.string  ,MAX_MESSAGE_SIZE-1);
 		} //end else if
 		//variable string
 		else if (token.type == TT_NUMBER && (token.subtype & TT_INTEGER))
@@ -905,7 +905,7 @@ int BotLoadChatMessage(source_t *source, char *chatmessagestring)
 				SourceError(source, "chat message too long\n");
 				return qfalse;
 			} //end if
-			snprintf(&ptr[strlen(ptr)],MAX_MESSAGE_SIZE, "%cv%ld%c", ESCAPE_CHAR, token.intvalue, ESCAPE_CHAR);
+			snprintf(&ptr[strlen(ptr)],MAX_MESSAGE_SIZE-1, "%cv%ld%c", ESCAPE_CHAR, token.intvalue, ESCAPE_CHAR);
 		} //end if
 		//random string
 		else if (token.type == TT_NAME)
@@ -915,7 +915,11 @@ int BotLoadChatMessage(source_t *source, char *chatmessagestring)
 				SourceError(source, "chat message too long\n");
 				return qfalse;
 			} //end if
-			snprintf(&ptr[strlen(ptr)],MAX_MESSAGE_SIZE, "%cr%s%c", ESCAPE_CHAR, token.string, ESCAPE_CHAR);
+			#pragma GCC diagnostic push
+			#pragma GCC diagnostic ignored "-Wformat-truncation"
+			snprintf(&ptr[strlen(ptr)],MAX_MESSAGE_SIZE-1, "%cr%s%c", ESCAPE_CHAR, token.string, ESCAPE_CHAR);
+			#pragma GCC diagnostic pop
+
 		} //end else if
 		else
 		{
@@ -1458,7 +1462,7 @@ int BotFindMatch(char *str, bot_match_t *match, unsigned long int context)
 	int i;
 	bot_matchtemplate_t *ms;
 
-	strncpy(match->string, str, MAX_MESSAGE_SIZE);
+	strncpy(match->string, str, MAX_MESSAGE_SIZE-1);
 	//remove any trailing enters
 	while(strlen(match->string) &&
 			match->string[strlen(match->string)-1] == '\n')

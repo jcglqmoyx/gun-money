@@ -35,7 +35,7 @@ utItemID_t SV_Char2Item(char *item)
 	}
 	return 0;
 }
-weapon_t SV_Char2Weapon(char weapon[36])
+weapon_t SV_Char2Weapon(char *weapon)
 {
 	int i;
 	for ( i = 0; i < (UT_WP_NUM_WEAPONS + 3); i++ ) {

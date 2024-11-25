@@ -32,6 +32,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #include "q_shared.h"
 #include "qcommon.h"
 #include "unzip.h"
+#include "files.h"
 
 /*
 =============================================================================
@@ -1363,15 +1364,12 @@ int FS_Write( const void *buffer, int len, fileHandle_t h ) {
 	// InitRound: blablabla
 	if (!Q_stricmp(Cmd_Argv(1), "InitRound:"))
 	{
-		extern void SV_SurvivorRoundStart();
 		SV_SurvivorRoundStart();
 
 		// Battle Royale
-		extern void SV_BRSurvivorRoundStart();
 		SV_BRSurvivorRoundStart();
 
 		// 1v1
-		extern void SV_1V1SurvivorRoundStart();
 		SV_1V1SurvivorRoundStart();
 	}
 
@@ -1391,7 +1389,6 @@ int FS_Write( const void *buffer, int len, fileHandle_t h ) {
 		SV_onSurvivorWinner(Cmd_Argv(2));
 
 		// 1v1
-		extern void SV_onSurvivorWinner1v1();
 		SV_onSurvivorWinner1v1();
 	}
 
@@ -1413,7 +1410,6 @@ int FS_Write( const void *buffer, int len, fileHandle_t h ) {
 
 	if (!Q_stricmp(Cmd_Argv(1), "Exit:"))
 	{
-		extern void SV_OnMapExit();
 		SV_OnMapExit();
 	}
 

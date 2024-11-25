@@ -259,7 +259,7 @@ void QDECL SV_LogPrintf(const char *fmt, ...) {
 
 	// get the arguments
 	va_start(argptr, fmt);
-	vsprintf(buffer + 7, fmt, argptr);
+	vsnprintf(buffer + 7,sizeof(buffer)-7, fmt, argptr);
 	va_end(argptr);
 
 	// write in the log file
@@ -518,7 +518,6 @@ void MOD_modifiedAuth(char *auth, char *newauth, int cnum)
 	client_t *client;
 
 	client = &svs.clients[cnum];
-	//sprintf(ccnum, "%d", cnum);
 	snprintf(ccnum, sizeof(ccnum), "%d", cnum);
 
 	//Save auth of the player
@@ -549,7 +548,7 @@ void MOD_modifiedAuth(char *auth, char *newauth, int cnum)
 
 void MOD_parseScore(char *cmd)
 {
-	int j = 0,cnum;
+	int j = 0,cnum=0;
 	byte        csmessage[MAX_MSGLEN] = {0};
 	char newauth[MAX_NAME_LENGTH*2]; //Replace string is generated here
 
@@ -580,7 +579,7 @@ void MOD_parseScore(char *cmd)
 }
 void MOD_parseScoresAndDouble(char *cmd)
 {
-	int j = 0, cnum;
+	int j = 0, cnum=0;
 	byte csmessage[MAX_MSGLEN] = {0};
 	char newauth[MAX_NAME_LENGTH*2];
 
@@ -637,11 +636,12 @@ void QDECL SV_SendServerCommand(client_t *cl, const char *fmt, ...) {
 		char workString[256];
 		char actualClientLocation[256];
 
+                #pragma GCC diagnostic push
+                #pragma GCC diagnostic ignored "-Wformat-truncation"
 		// Save the clients location in the clientState
-		//sprintf(workString, "%s: %s", cl->name, (char *)message);
 		snprintf(workString, sizeof(workString), "%s: %s", cl->name, (char *)message);
 		int jumplength = strlen(cl->name) + 11;
-		strcpy(actualClientLocation, workString + jumplength);
+		strncpy(actualClientLocation, workString + jumplength,256);
 		cl->location = sv.configstrings[atoi(actualClientLocation) + 640];
 
 		// Set the last location time
@@ -657,6 +657,7 @@ void QDECL SV_SendServerCommand(client_t *cl, const char *fmt, ...) {
 			// Client has no spectators, send the default string
 			Cmd_ExecuteString(va("location %s \"^3%s ^7[^8%s^7] | ^9Spectators: ^8Nobody is watching you.\" 0 1\n", cl->name, cl->name, cl->location));
 		}
+                #pragma GCC diagnostic pop
 	 }
 
 	// Location is locked

@@ -3553,7 +3553,7 @@ void CL_GlobalServers_f( void ) {
 		cls.pingUpdateSource = AS_GLOBAL;
 	}
 
-	sprintf( command, "getservers %s", Cmd_Argv(2) );
+	snprintf( command, sizeof(command),  "getservers %s", Cmd_Argv(2) );
 
 	// tack on keywords
 	buffptr = command + strlen( command );

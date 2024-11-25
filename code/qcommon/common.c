@@ -324,7 +324,7 @@ void QDECL Com_Error( int code, const char *fmt, ... ) {
 	com_errorEntered = qtrue;
 
 	va_start (argptr,fmt);
-	vsprintf (com_errorMessage,fmt,argptr);
+	vsnprintf (com_errorMessage,sizeof(com_errorMessage),fmt,argptr);
 	va_end (argptr);
 
 	if (code != ERR_DISCONNECT && code != ERR_NEED_CD)
@@ -2316,8 +2316,8 @@ void Com_ReadCDKey( const char *filename ) {
 	char			buffer[33];
 	char			fbuffer[MAX_OSPATH];
 
-	sprintf(fbuffer, "%s/q3key", filename);
 
+	snprintf(fbuffer,sizeof(fbuffer), "%s/q3key", filename);
 	FS_SV_FOpenFileRead( fbuffer, &f );
 	if ( !f ) {
 		Q_strncpyz( cl_cdkey, "                ", 17 );
@@ -2346,7 +2346,7 @@ void Com_AppendCDKey( const char *filename ) {
 	char			buffer[33];
 	char			fbuffer[MAX_OSPATH];
 
-	sprintf(fbuffer, "%s/q3key", filename);
+	snprintf(fbuffer,sizeof(fbuffer), "%s/q3key", filename);
 
 	FS_SV_FOpenFileRead( fbuffer, &f );
 	if (!f) {
@@ -2381,7 +2381,7 @@ static void Com_WriteCDKey( const char *filename, const char *ikey ) {
 #endif
 
 
-	sprintf(fbuffer, "%s/q3key", filename);
+	snprintf(fbuffer,sizeof(fbuffer), "%s/q3key", filename);
 
 
 	Q_strncpyz( key, ikey, 17 );

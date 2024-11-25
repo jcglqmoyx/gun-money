@@ -222,7 +222,7 @@ ifeq ($(PLATFORM),linux)
   endif
   endif
 
-  BASE_CFLAGS = -Wno-unused-result -Wall -fno-strict-aliasing -Wimplicit -Wstrict-prototypes -pipe
+  BASE_CFLAGS = -Wno-unused-result -Wall -fno-strict-aliasing -Wimplicit -Wno-stringop-truncation -Wstrict-prototypes -pipe -Wno-return-local-addr -Wno-dangling-pointer -Wno-parentheses
 
   ifeq ($(USE_OPENAL),1)
     BASE_CFLAGS += -DUSE_OPENAL=1

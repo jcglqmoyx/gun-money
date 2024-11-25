@@ -61,10 +61,10 @@ void SV_onItem(char* playerid, char* itemname)
 	}
 
 	// Reward lists
-	const char* zone1[] = {"deagle", "beretta", "glock", "colt", "magnum"};
-	const char* zone2[] = {"spas12", "benelli", "mp5k", "ump45", "mac11", "p90"};
-	const char* zone3[] = {"lr", "g36", "ak103", "m4", "negev"};
-	const char* zone4[] = {"sr8", "psg1", "frf1"};
+	char* zone1[] = {"deagle", "beretta", "glock", "colt", "magnum"};
+	char* zone2[] = {"spas12", "benelli", "mp5k", "ump45", "mac11", "p90"};
+	char* zone3[] = {"lr", "g36", "ak103", "m4", "negev"};
+	char* zone4[] = {"sr8", "psg1", "frf1"};
 
 
 	// Get the client
