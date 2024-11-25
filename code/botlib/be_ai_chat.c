@@ -895,7 +895,7 @@ int BotLoadChatMessage(source_t *source, char *chatmessagestring)
 				SourceError(source, "chat message too long\n");
 				return qfalse;
 			} //end if
-			strncat(ptr, MAX_MESSAGE_SIZE, token.string);
+			strncat(ptr, token.string  ,MAX_MESSAGE_SIZE);
 		} //end else if
 		//variable string
 		else if (token.type == TT_NUMBER && (token.subtype & TT_INTEGER))
