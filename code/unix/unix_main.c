@@ -323,7 +323,7 @@ void Sys_Printf (char *fmt, ...)
   unsigned char   *p;
 
   va_start (argptr,fmt);
-  vsprintf (text,fmt,argptr);
+  vsnprintf (text,sizeof(text),fmt,argptr);
   va_end (argptr);
 
   if (strlen(text) > sizeof(text))
@@ -454,7 +454,7 @@ void Sys_Warn (char *warning, ...)
   char        string[1024];
 
   va_start (argptr,warning);
-  vsprintf (string,warning,argptr);
+  vsnprintf (string,sizeof(string),warning,argptr);
   va_end (argptr);
 
   if (ttycon_on)

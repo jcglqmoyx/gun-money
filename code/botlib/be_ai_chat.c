@@ -895,7 +895,7 @@ int BotLoadChatMessage(source_t *source, char *chatmessagestring)
 				SourceError(source, "chat message too long\n");
 				return qfalse;
 			} //end if
-			strcat(ptr, token.string);
+			strncat(ptr, MAX_MESSAGE_SIZE, token.string);
 		} //end else if
 		//variable string
 		else if (token.type == TT_NUMBER && (token.subtype & TT_INTEGER))
@@ -905,7 +905,7 @@ int BotLoadChatMessage(source_t *source, char *chatmessagestring)
 				SourceError(source, "chat message too long\n");
 				return qfalse;
 			} //end if
-			sprintf(&ptr[strlen(ptr)], "%cv%ld%c", ESCAPE_CHAR, token.intvalue, ESCAPE_CHAR);
+			snprintf(&ptr[strlen(ptr)],MAX_MESSAGE_SIZE, "%cv%ld%c", ESCAPE_CHAR, token.intvalue, ESCAPE_CHAR);
 		} //end if
 		//random string
 		else if (token.type == TT_NAME)
@@ -915,7 +915,7 @@ int BotLoadChatMessage(source_t *source, char *chatmessagestring)
 				SourceError(source, "chat message too long\n");
 				return qfalse;
 			} //end if
-			sprintf(&ptr[strlen(ptr)], "%cr%s%c", ESCAPE_CHAR, token.string, ESCAPE_CHAR);
+			snprintf(&ptr[strlen(ptr)],MAX_MESSAGE_SIZE, "%cr%s%c", ESCAPE_CHAR, token.string, ESCAPE_CHAR);
 		} //end else if
 		else
 		{
