@@ -1,3 +1,4 @@
 [submodule "b3"]
 	path = b3
-	url = https://github.com/suqdiq/b3
+        url = git@github.com:suqdiq/b3.git
+
