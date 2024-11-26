@@ -3076,11 +3076,11 @@ void checkCampers (client_t *cl) {
 				// Client is still within his previous radius, 
 				if (cl->campcounter == 3) {
 					// punish now
-					acceleratedSlap(cl, ps);
-					acceleratedSlap(cl, ps);
-					acceleratedSlap(cl, ps);
-					acceleratedSlap(cl, ps);
-					acceleratedSlap(cl, ps);
+					//acceleratedSlap(cl, ps);
+					//acceleratedSlap(cl, ps);
+					//acceleratedSlap(cl, ps);
+					//acceleratedSlap(cl, ps);
+					//acceleratedSlap(cl, ps);
 					cl->campcounter = 0;
 					Cmd_ExecuteString(va("bigtext \"^5%s ^3was caught ^1Camping\"", cl->name));
 				} else {
