@@ -11,7 +11,6 @@ feel free to use it for making your own server however please give credits to me
 - Jump mod
 - Battleroyale
 - 1v1 Arena
--
 
 **This code will most likely cause bugs, crashes and other issues, use at own risk**
 
