@@ -857,7 +857,7 @@ endif #SunOS
 TARGETS =
 
 ifneq ($(BUILD_SERVER),0)
-  TARGETS += $(B)/titanMod.$(ARCH)$(BINEXT)
+  TARGETS += $(B)/gun-money.$(ARCH)$(BINEXT)
 endif
 
 ifneq ($(BUILD_CLIENT),0)
@@ -1452,10 +1452,10 @@ ifeq ($(HAVE_VM_COMPILED),true)
   endif
 endif
 
-$(B)/titanMod.$(ARCH)$(BINEXT): $(Q3DOBJ)
+$(B)/gun-money.$(ARCH)$(BINEXT): $(Q3DOBJ)
 	$(echo_cmd) "LD $@"
 	$(Q)$(CC) -o $@ $(Q3DOBJ) $(LDFLAGS)
-	cp $@ ./run-it/UrT_Privilege.x86_64 
+	cp $@ ./run/gun-money.x86_64
 
 
 #############################################################################
@@ -1886,8 +1886,8 @@ endif
 #endif
 
 ifneq ($(BUILD_SERVER),0)
-	@if [ -f $(BR)/titanMod.$(ARCH)$(BINEXT) ]; then \
-		$(INSTALL) -s -m 0755 $(BR)/titanMod.$(ARCH)$(BINEXT) $(COPYDIR)/titanMod.$(ARCH)$(BINEXT); \
+	@if [ -f $(BR)/gun-money.$(ARCH)$(BINEXT) ]; then \
+		$(INSTALL) -s -m 0755 $(BR)/gun-money.$(ARCH)$(BINEXT) $(COPYDIR)/gun-money.$(ARCH)$(BINEXT); \
 	fi
 endif
 
@@ -1909,7 +1909,7 @@ endif
 
 clean: clean-debug clean-release
 	@$(MAKE) -C $(LOKISETUPDIR) clean
-	rm -f ./run-it/UrT_Privilege.x86_64 
+	rm -f ./run/gun-money.x86_64
 
 clean2:
 	@echo "CLEAN $(B)"
